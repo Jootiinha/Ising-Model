@@ -24,7 +24,7 @@ echo "=================================="
 echo "Passo 3 ==> Executando simulação"
 g++ model.cpp -lgsl -lgslcblas -lm*
 
-cls
+clear
 
 end=`date +%s`
 runtime=$((end-start))
@@ -32,7 +32,7 @@ runtime=$((end-start))
 echo "=================================="
 echo "=================================="
 echo " * Simulação executada com sucesso *"
-echo " * Tempo total de execução do script: $runtime *"
+echo " * Tempo total de execução do script: $runtimes*"
 echo " * Dados da simulação no arquivo DATA.1.dat *"
 echo "=================================="
 echo "=================================="

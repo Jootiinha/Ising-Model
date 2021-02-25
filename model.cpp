@@ -4,7 +4,8 @@
 #include <fstream>
 #define L 100
 #include <gsl/gsl_rng.h>
-using namespace std;3
+using namespace std;
+
 ofstream DATA("DATA.1.dat",ios::out);
 
 // Malha de spins
