@@ -16,6 +16,7 @@ Descrição da execução:
 - Processador: Core i5-4310M CPU @ 2.70GHz
 - Memoria ram(VM): 1024MB
 - Sistema operacional(VM): Xubuntu Latest (24/02/2020)
+- Tempo de execução: 3.5 horas
 
 
 ```
