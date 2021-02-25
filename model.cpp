@@ -30,7 +30,7 @@ long unsigned int MCSteps = 10000; //MS
 //Número de passos descartados para evitar a parte fora do equilíbrio.
 int transiente = 1000; 
 //Seed
-const gsk_rng *r;
+const gsl_rng *r;
 
 
 //Inicializar a rede
