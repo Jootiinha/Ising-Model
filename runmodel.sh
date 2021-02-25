@@ -4,7 +4,8 @@ echo "=================================="
 echo "Iniciando simulação"
 echo "=================================="
 echo "=================================="
-echo "=================================="
+
+
 echo "Passo 1 ===> Instalação de dependências"
 echo " * Necessário informar credências de super usuário - sudo"
 #Instalar as dependências
@@ -21,8 +22,19 @@ echo "Repositório clonado"
 echo "=================================="
 echo "=================================="
 
-echo "Passo 3 ==> Executando simulação"
-g++ model.cpp -lgsl -lgslcblas -lm*
+echo "Passo 3 ==> Compilar código fonte da simulação simulação"
+echo " * Compilando código"
+g++ model.cpp -lgsl -lgslcblas -lm
+echo "Código compilado"
+echo "=================================="
+echo "=================================="
+
+echo "Passo 4 ==> Rodar simulação"
+echo " * Executando simulação"
+./a.out
+echo "Simulação executada"
+echo "=================================="
+echo "=================================="
 
 
 end=`date +%s`
