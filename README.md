@@ -11,8 +11,11 @@ Descrição da execução:
 - Tamanho da malha: 100x100
 - Temperatura Final: 5
 - Temperatura inicial: 0.5
-- Passos Monte Carlo: 100000
-- Transiente: 10000
+- Passos Monte Carlo: 10000
+- Transiente: 1000
+- Processador: Core i5-4310M CPU @ 2.70GHz
+- Memoria ram(VM): 1024MB
+- Sistema operacional(VM): Xubuntu Latest (24/02/2020)
 
 
 ```
