@@ -24,7 +24,6 @@ echo "=================================="
 echo "Passo 3 ==> Executando simulação"
 g++ model.cpp -lgsl -lgslcblas -lm*
 
-clear
 
 end=`date +%s`
 runtime=$((end-start))
